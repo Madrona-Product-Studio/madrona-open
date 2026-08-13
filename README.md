@@ -15,7 +15,16 @@ This repo is a Claude Code **plugin marketplace**. Add it once, then install any
 /plugin install motion-options@madrona-open
 ```
 
-## The catalog
+## The flagship: an open operating system
+
+**[operating-system](plugins/operating-system)** is the engine we run our own studio and lives on, extracted into a starter you can fork. Most productivity tools want you to move your life inside them; this is the opposite. The source of truth is **plain text you own** (a decision layer + a live work file with machine-maintained blocks), agents keep it current on a rhythm (`capture`, `prioritize`, `daily-brief`, `weekly-sync`), and any surface just **renders** it. You own the mind; the app renders it. It's the ground-level version of "the era of agentic operations."
+
+```
+/plugin marketplace add Madrona-Product-Studio/madrona-open
+/plugin install operating-system@madrona-open
+```
+
+## The craft catalog
 
 | Tool | What it does | When to use it |
 |---|---|---|

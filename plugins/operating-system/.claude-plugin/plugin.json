@@ -1,0 +1,9 @@
+{
+  "name": "operating-system",
+  "description": "An open, forkable personal/works operating system: a plain-text source of truth you own (a decision layer + a live work file with machine-maintained blocks), a render contract for any surface, and the agent routines that keep it current on a rhythm. You own the mind; a surface just renders it.",
+  "version": "0.1.0",
+  "author": { "name": "Madrona Product Studio" },
+  "homepage": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "repository": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "license": "MIT"
+}

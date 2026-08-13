@@ -10,6 +10,14 @@
   },
   "plugins": [
     {
+      "name": "operating-system",
+      "source": "./plugins/operating-system",
+      "description": "An open, forkable operating system: a plain-text source of truth you own + the agent routines that keep it current on a rhythm. You own the mind; a surface just renders it.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": ["operating-system", "agents", "productivity"]
+    },
+    {
       "name": "animation-vocabulary",
       "source": "./plugins/animation-vocabulary",
       "description": "Turn a vague description of a motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in).",
