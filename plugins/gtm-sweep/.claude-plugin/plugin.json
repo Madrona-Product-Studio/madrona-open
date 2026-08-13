@@ -1,0 +1,9 @@
+{
+  "name": "gtm-sweep",
+  "description": "Take an app to market as a repeatable, measured sweep — positioning, a measurement floor, discoverability (SEO backfill + expansion), a small honest channel launch, and the post-launch read/iterate loop. Use to market an app, grow traffic/users, plan a launch, or expand SEO, so \"how do we get users\" becomes a phased routine instead of a vibe.",
+  "version": "0.1.0",
+  "author": { "name": "Madrona Product Studio" },
+  "homepage": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "repository": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "license": "MIT"
+}

@@ -48,6 +48,38 @@
       "version": "0.1.0",
       "license": "MIT",
       "category": ["tools", "qa"]
+    },
+    {
+      "name": "investor-ready",
+      "source": "./plugins/investor-ready",
+      "description": "Audit and fix an app so a first-time outsider gets what it is and sees the core value fast — first-run messaging, a demo wow-path, credibility polish, plus bundled scripts (OG image, icons, production audit).",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": ["product", "launch"]
+    },
+    {
+      "name": "gtm-sweep",
+      "source": "./plugins/gtm-sweep",
+      "description": "Take an app to market as a repeatable, measured sweep — positioning, a measurement floor, SEO expansion, channel launch, and a read/iterate loop.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": ["marketing", "growth"]
+    },
+    {
+      "name": "presentable-pass",
+      "source": "./plugins/presentable-pass",
+      "description": "Pre-share cleanup pass for a web app — footer/attribution, stale AI model names, disclaimers, broken builds, boilerplate, mobile polish, then branch and open a PR.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": ["product", "qa"]
+    },
+    {
+      "name": "review-animations",
+      "source": "./plugins/review-animations",
+      "description": "Review motion code against a high craft bar (frequency, easing, duration, physicality, reduced-motion) and return a findings table plus a Block/Approve verdict.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": ["design", "animation"]
     }
   ]
 }

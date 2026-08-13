@@ -1,0 +1,9 @@
+{
+  "name": "review-animations",
+  "description": "Review animation and motion code against a high craft bar — a motion-design reviewer that flags sluggish easing, wrong origins, non-GPU properties, missing reduced-motion, and \"it looks cool\" animations on high-frequency actions, then returns a findings table and a Block/Approve verdict. Use when reviewing a diff that touches transitions, keyframes, springs, or gesture code, or when asked to review whether an animation feels right.",
+  "version": "0.1.0",
+  "author": { "name": "Madrona Product Studio" },
+  "homepage": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "repository": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "license": "MIT"
+}

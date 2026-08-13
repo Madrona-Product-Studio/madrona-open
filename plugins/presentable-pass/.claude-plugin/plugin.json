@@ -1,0 +1,9 @@
+{
+  "name": "presentable-pass",
+  "description": "A repeatable pre-share cleanup pass for a prototype before it goes out to real people — add your standard footer/attribution, then surface and fix the things that make a prototype look unfinished or fail to deploy (stale AI model ids, missing disclaimers, broken production builds, leftover boilerplate, mobile polish), and finally branch and open a PR. Use when preparing a prototype to share, adding a site-wide footer, or doing a general \"clean this up and make it presentable\" pass. Assumes a web app (Next.js App Router by default) but adapts to the stack it finds.",
+  "version": "0.1.0",
+  "author": { "name": "Madrona Product Studio" },
+  "homepage": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "repository": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "investor-ready",
+  "description": "Audit and fix an app so a first-time outside viewer (investor, beta user, press) immediately understands what it is, why it matters, and sees the core value fast. Use when asked to make an app \"investor ready\", \"demo ready\", or \"presentable to outsiders\". Runs a phased sweep — stranger-walkthrough audit, first-run messaging, demo wow-path, credibility polish (security gate, og/icons/favicon/naming/analytics/waitlist), and narrative — with bundled Playwright scripts for og composition, icon rasterizing, storage-preset screenshots, and a deployed-prod audit.",
+  "version": "0.1.0",
+  "author": { "name": "Madrona Product Studio" },
+  "homepage": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "repository": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "madrona-open-investor-ready-scripts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Playwright helper scripts for the investor-ready skill: og composer, icon rasterizer, storage-preset screenshots, and a deployed-prod audit.",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
