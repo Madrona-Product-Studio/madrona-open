@@ -1,0 +1,9 @@
+{
+  "name": "animation-vocabulary",
+  "description": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term, so you know what to ask for.",
+  "version": "0.1.0",
+  "author": { "name": "Madrona Product Studio" },
+  "homepage": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "repository": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "license": "MIT"
+}

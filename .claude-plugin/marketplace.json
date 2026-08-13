@@ -1,0 +1,45 @@
+{
+  "name": "madrona-open",
+  "owner": {
+    "name": "Madrona Product Studio",
+    "url": "https://github.com/Madrona-Product-Studio"
+  },
+  "metadata": {
+    "description": "Open tools from Madrona Product Studio — reusable Claude Code skills for building and shipping polished product.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "animation-vocabulary",
+      "source": "./plugins/animation-vocabulary",
+      "description": "Turn a vague description of a motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in).",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": ["design", "animation"]
+    },
+    {
+      "name": "motion-options",
+      "source": "./plugins/motion-options",
+      "description": "Build 3–4 genuinely distinct motion options, compare them live side by side, pick, wire the winner in, tear the harness down.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": ["design", "animation"]
+    },
+    {
+      "name": "og-image",
+      "source": "./plugins/og-image",
+      "description": "Design and wire great Open Graph / social-share images following a \"simple is best\" doctrine.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": ["design", "marketing"]
+    },
+    {
+      "name": "screenshot",
+      "source": "./plugins/screenshot",
+      "description": "A tiny Playwright screenshotter for visual QA — full-page or by selector, retina-aware, capped for AI image limits.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": ["tools", "qa"]
+    }
+  ]
+}

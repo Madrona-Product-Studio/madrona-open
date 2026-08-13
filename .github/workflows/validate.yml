@@ -1,0 +1,30 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  manifests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate all plugin + marketplace manifests are well-formed JSON
+        run: |
+          set -e
+          fail=0
+          for f in .claude-plugin/marketplace.json plugins/*/.claude-plugin/plugin.json; do
+            if jq empty "$f" 2>/dev/null; then
+              echo "ok    $f"
+            else
+              echo "BAD   $f"
+              fail=1
+            fi
+          done
+          # Every plugin listed in the marketplace must have a matching source dir + SKILL.md
+          for dir in $(jq -r '.plugins[].source' .claude-plugin/marketplace.json); do
+            test -f "$dir/.claude-plugin/plugin.json" || { echo "missing plugin.json in $dir"; fail=1; }
+            ls "$dir"/skills/*/SKILL.md >/dev/null 2>&1 || { echo "no SKILL.md in $dir"; fail=1; }
+          done
+          exit $fail

@@ -1,0 +1,9 @@
+{
+  "name": "og-image",
+  "description": "Design, build, and wire up great Open Graph / social-share images following a \"simple is best\" doctrine — one idea, brand color, bold mark — with a template and per-stack wiring.",
+  "version": "0.1.0",
+  "author": { "name": "Madrona Product Studio" },
+  "homepage": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "repository": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "screenshot",
+  "description": "A tiny Playwright screenshotter for visual QA — full-page or by CSS selector, retina-aware, auto-capped so captures stay under AI image-size limits.",
+  "version": "0.1.0",
+  "author": { "name": "Madrona Product Studio" },
+  "homepage": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "repository": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "motion-options",
+  "description": "Explore and ship animation as a reviewed design decision — build several distinct, polished options, compare them live side by side, pick, wire the winner in, and tear down the harness.",
+  "version": "0.1.0",
+  "author": { "name": "Madrona Product Studio" },
+  "homepage": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "repository": "https://github.com/Madrona-Product-Studio/madrona-open",
+  "license": "MIT"
+}
