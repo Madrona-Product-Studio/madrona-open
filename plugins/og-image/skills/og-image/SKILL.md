@@ -19,6 +19,7 @@ A link preview is the app's first impression in iMessage, Slack, and LinkedIn. T
    - **D. Dynamic per-content** — for user-generated/detail pages (a shared doc, a guide). Same fixed layout system as A–C with exactly one variable slot (title, or title + one image).
 3. **Thumbnail test.** The image must read at 400px wide — that's how it appears in a feed. If text or the mark isn't legible at 400px, it fails.
 4. **Brand color from tokens.** Pull the background/accent from the app's own palette. One background color, at most one accent. No multi-stop decorative gradients.
+   - **Confirm the repo serves the domain before designing.** Domains move between repos as projects evolve. Check the live site's title/copy against the repo's `index.html`/landing page before starting — a full design round in the wrong repo is wasted.
    - **Logo sourcing:** check for an approved logo/asset system first (a `Logo` component, a brand asset dir). Respect raster constraints (reversed variants on dark only, never upscale past native). When a fixed lockup is too small at OG scale, split it: raster mark at native size + wordmark re-set in live type matched to the brand face (verify side by side; flag as an approximation if the official face is unconfirmed).
 5. **Typography:** one typeface (two max), the app's actual brand face. Any text ≥ 48px at full size; headlines 64–120px.
 6. **Safe zone:** keep text and marks ≥ 90px from every edge (platforms crop edges and round corners).

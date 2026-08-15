@@ -41,6 +41,16 @@ This repo is a Claude Code **plugin marketplace**. Add it once, then install any
 
 They're a set. `motion-options` and `animation-vocabulary` are how we treat motion as a reviewed design decision instead of an afterthought. `og-image` is the first impression. `screenshot` is the primitive the others lean on — the discipline of *looking at the rendered thing yourself* before calling it done.
 
+## How this repo stays current
+
+These plugins are **genericized exports** of skills we run internally (our studio
+toolbox is the canonical home; internal copies carry studio-specific "learned
+checks" and asset systems that don't belong here). When an internal skill banks a
+lesson that generalizes, we port it into the export — leak-scanned, with
+studio-specific paths, brands, and war-story details removed. Exports are
+regenerated from the canonicals; edits made only here risk being overwritten, so
+PRs that improve a skill are best framed as "the lesson," which we'll land in both.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Issues and PRs welcome, best-effort.
