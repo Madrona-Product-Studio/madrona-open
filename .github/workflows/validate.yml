@@ -28,3 +28,9 @@ jobs:
             ls "$dir"/skills/*/SKILL.md >/dev/null 2>&1 || { echo "no SKILL.md in $dir"; fail=1; }
           done
           exit $fail
+      - name: Schema-validate with the real Claude Code validator
+        # jq only proves well-formed JSON; this catches schema violations the
+        # install path rejects (e.g. category must be a string, not an array).
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          claude plugin validate .

@@ -15,7 +15,12 @@
       "description": "An open, forkable operating system: a plain-text source of truth you own + the agent routines that keep it current on a rhythm. You own the mind; a surface just renders it.",
       "version": "0.1.0",
       "license": "MIT",
-      "category": ["operating-system", "agents", "productivity"]
+      "category": "productivity",
+      "keywords": [
+        "operating-system",
+        "agents",
+        "productivity"
+      ]
     },
     {
       "name": "animation-vocabulary",
@@ -23,7 +28,11 @@
       "description": "Turn a vague description of a motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in).",
       "version": "0.1.0",
       "license": "MIT",
-      "category": ["design", "animation"]
+      "category": "design",
+      "keywords": [
+        "design",
+        "animation"
+      ]
     },
     {
       "name": "motion-options",
@@ -31,7 +40,11 @@
       "description": "Build 3–4 genuinely distinct motion options, compare them live side by side, pick, wire the winner in, tear the harness down.",
       "version": "0.1.0",
       "license": "MIT",
-      "category": ["design", "animation"]
+      "category": "design",
+      "keywords": [
+        "design",
+        "animation"
+      ]
     },
     {
       "name": "og-image",
@@ -39,7 +52,11 @@
       "description": "Design and wire great Open Graph / social-share images following a \"simple is best\" doctrine.",
       "version": "0.1.0",
       "license": "MIT",
-      "category": ["design", "marketing"]
+      "category": "design",
+      "keywords": [
+        "design",
+        "marketing"
+      ]
     },
     {
       "name": "screenshot",
@@ -47,7 +64,11 @@
       "description": "A tiny Playwright screenshotter for visual QA — full-page or by selector, retina-aware, capped for AI image limits.",
       "version": "0.1.0",
       "license": "MIT",
-      "category": ["tools", "qa"]
+      "category": "tools",
+      "keywords": [
+        "tools",
+        "qa"
+      ]
     },
     {
       "name": "investor-ready",
@@ -55,7 +76,11 @@
       "description": "Audit and fix an app so a first-time outsider gets what it is and sees the core value fast — first-run messaging, a demo wow-path, credibility polish, plus bundled scripts (OG image, icons, production audit).",
       "version": "0.1.0",
       "license": "MIT",
-      "category": ["product", "launch"]
+      "category": "product",
+      "keywords": [
+        "product",
+        "launch"
+      ]
     },
     {
       "name": "gtm-sweep",
@@ -63,7 +88,11 @@
       "description": "Take an app to market as a repeatable, measured sweep — positioning, a measurement floor, SEO expansion, channel launch, and a read/iterate loop.",
       "version": "0.1.0",
       "license": "MIT",
-      "category": ["marketing", "growth"]
+      "category": "marketing",
+      "keywords": [
+        "marketing",
+        "growth"
+      ]
     },
     {
       "name": "presentable-pass",
@@ -71,7 +100,11 @@
       "description": "Pre-share cleanup pass for a web app — footer/attribution, stale AI model names, disclaimers, broken builds, boilerplate, mobile polish, then branch and open a PR.",
       "version": "0.1.0",
       "license": "MIT",
-      "category": ["product", "qa"]
+      "category": "product",
+      "keywords": [
+        "product",
+        "qa"
+      ]
     },
     {
       "name": "review-animations",
@@ -79,7 +112,11 @@
       "description": "Review motion code against a high craft bar (frequency, easing, duration, physicality, reduced-motion) and return a findings table plus a Block/Approve verdict.",
       "version": "0.1.0",
       "license": "MIT",
-      "category": ["design", "animation"]
+      "category": "design",
+      "keywords": [
+        "design",
+        "animation"
+      ]
     }
   ]
 }
